@@ -1,0 +1,204 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Bellybutton Biodiversity</title>
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+</head>
+
+<body>
+
+  <div class="container">
+    <div class="row">
+      <div class="col-md-12 jumbotron text-center">
+        <h1>Belly Button Biodiversity Dashboard</h1>
+        <p>Use the interactive charts below to explore the dataset</p>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-md-2">
+        <div class="well">
+          <h5>Test Subject ID No.:</h5>
+          <select id="selDataset" onchange="optionChanged(this.value)">
+            <option value="patient">940</option>
+            <option value="patient">941</option>
+            <option value="patient">943</option>
+            <option value="patient">944</option>
+            <option value="patient">945</option>
+            <option value="patient">946</option>
+            <option value="patient">947</option>
+            <option value="patient">948</option>
+            <option value="patient">949</option>
+            <option value="patient">950</option>
+            <option value="patient">952</option>
+            <option value="patient">953</option>
+            <option value="patient">954</option>
+            <option value="patient">955</option>
+            <option value="patient">956</option>
+            <option value="patient">958</option>
+            <option value="patient">959</option>
+            <option value="patient">960</option>
+            <option value="patient">961</option>
+            <option value="patient">962</option>
+            <option value="patient">963</option>
+            <option value="patient">964</option>
+            <option value="patient">966</option>
+            <option value="patient">967</option>
+            <option value="patient">968</option>
+            <option value="patient">969</option>
+            <option value="patient">970</option>
+            <option value="patient">971</option>
+            <option value="patient">972</option>
+            <option value="patient">973</option>
+            <option value="patient">974</option>
+            <option value="patient">975</option>
+            <option value="patient">978</option>
+            <option value="patient">1233</option>
+            <option value="patient">1234</option>
+            <option value="patient">1235</option>
+            <option value="patient">1236</option>
+            <option value="patient">1237</option>
+            <option value="patient">1238</option>
+            <option value="patient">1242</option>
+            <option value="patient">1243</option>
+            <option value="patient">1246</option>
+            <option value="patient">1253</option>
+            <option value="patient">1254</option>
+            <option value="patient">1258</option>
+            <option value="patient">1259</option>
+            <option value="patient">1260</option>
+            <option value="patient">1264</option>
+            <option value="patient">1265</option>
+            <option value="patient">1273</option>
+            <option value="patient">1275</option>
+            <option value="patient">1276</option>
+            <option value="patient">1277</option>
+            <option value="patient">1278</option>
+            <option value="patient">1279</option>
+            <option value="patient">1280</option>
+            <option value="patient">1281</option>
+            <option value="patient">1282</option>
+            <option value="patient">1283</option>
+            <option value="patient">1284</option>
+            <option value="patient">1285</option>
+            <option value="patient">1286</option>
+            <option value="patient">1287</option>
+            <option value="patient">1288</option>
+            <option value="patient">1289</option>
+            <option value="patient">1290</option>
+            <option value="patient">1291</option>
+            <option value="patient">1292</option>
+            <option value="patient">1293</option>
+            <option value="patient">1294</option>
+            <option value="patient">1295</option>
+            <option value="patient">1296</option>
+            <option value="patient">1297</option>
+            <option value="patient">1298</option>
+            <option value="patient">1308</option>
+            <option value="patient">1309</option>
+            <option value="patient">1310</option>
+            <option value="patient">1374</option>
+            <option value="patient">1415</option>
+            <option value="patient">1439</option>
+            <option value="patient">1441</option>
+            <option value="patient">1443</option>
+            <option value="patient">1486</option>
+            <option value="patient">1500</option>
+            <option value="patient">1501</option>
+            <option value="patient">1502</option>
+            <option value="patient">1503</option>
+            <option value="patient">1504</option>
+            <option value="patient">1505</option>
+            <option value="patient">1506</option>
+            <option value="patient">1507</option>
+            <option value="patient">1508</option>
+            <option value="patient">1510</option>
+            <option value="patient">1511</option>
+            <option value="patient">1512</option>
+            <option value="patient">1513</option>
+            <option value="patient">1514</option>
+            <option value="patient">1515</option>
+            <option value="patient">1516</option>
+            <option value="patient">1517</option>
+            <option value="patient">1518</option>
+            <option value="patient">1519</option>
+            <option value="patient">1521</option>
+            <option value="patient">1524</option>
+            <option value="patient">1526</option>
+            <option value="patient">1527</option>
+            <option value="patient">1530</option>
+            <option value="patient">1531</option>
+            <option value="patient">1532</option>
+            <option value="patient">1533</option>
+            <option value="patient">1534</option>
+            <option value="patient">1535</option>
+            <option value="patient">1536</option>
+            <option value="patient">1537</option>
+            <option value="patient">1539</option>
+            <option value="patient">1540</option>
+            <option value="patient">1541</option>
+            <option value="patient">1542</option>
+            <option value="patient">1543</option>
+            <option value="patient">1544</option>
+            <option value="patient">1545</option>
+            <option value="patient">1546</option>
+            <option value="patient">1547</option>
+            <option value="patient">1548</option>
+            <option value="patient">1549</option>
+            <option value="patient">1550</option>
+            <option value="patient">1551</option>
+            <option value="patient">1552</option>
+            <option value="patient">1553</option>
+            <option value="patient">1554</option>
+            <option value="patient">1555</option>
+            <option value="patient">1556</option>
+            <option value="patient">1557</option>
+            <option value="patient">1558</option>
+            <option value="patient">1561</option>
+            <option value="patient">1562</option>
+            <option value="patient">1563</option>
+            <option value="patient">1564</option>
+            <option value="patient">1572</option>
+            <option value="patient">1573</option>
+            <option value="patient">1574</option>
+            <option value="patient">1576</option>
+            <option value="patient">1577</option>
+            <option value="patient">1581</option>
+            <option value="patient">1601</option>
+            
+          </select>
+        </div>
+        <div class="panel panel-primary">
+          <div class="panel-heading">
+            <h3 class="panel-title">Demographic Info</h3>
+          </div>
+          <div id="sample-metadata" class="panel-body"></div>
+        </div>
+      </div>
+      <div class="col-md-5">
+        <div id="bar"></div>
+      </div>
+      <div class="col-md-5">
+        <div id="gauge"></div>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-md-12">
+        <div id="bubble"></div>
+      </div>
+    </div>
+  </div>
+
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/d3/5.5.0/d3.js"></script>
+  <script src="https://cdn.plot.ly/plotly-latest.min.js"></script>
+  <script src="samples.json"></script>
+  <script src="app.js"></script>
+  <!-- <script src="./static/js/bonus.js"></script> -->
+  <!-- <script src="samples.json"></script> -->
+  
+</body>
+
+</html>
